@@ -48,3 +48,11 @@ print(persons[0:1])
 # For loop functionality
 for name in range(len(persons)):
     print(persons[name], end=" ")
+
+print()
+# For dictionaries
+
+student ={"id": 1, "name": "Ashpreet","age": 22 }
+print(student.keys())
+print(student.values())
+print(student.get("name"))
